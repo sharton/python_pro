@@ -1,7 +1,8 @@
 name = 'Andrei'
-login = 'admin'
-password = 'asd123'
+login = input('login')
+password = input('passd')
+
 
 
 if login == 'admin' and password == 'asd123':
-	print(f"Welcome {name}")
+	print(f"Welcome {name}") 
